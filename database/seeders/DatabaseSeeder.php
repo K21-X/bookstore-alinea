@@ -13,27 +13,27 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'name' => 'Admin Kinan',
-            'email' => 'admin@alineastore.com',
-            'password' => Hash::make('password'),
+            'name' => 'Admin AlineaPustaka',
+            'email' => 'admin@alineapustaka.com',
+            'password' => Hash::make('admin321'),
             'role' => 'admin',
             'phone' => '081381949010',
-            'address' => 'Kantor Pusat Alineastore, Jakarta'
+            'address' => 'Kantor Pusat AlineaPustaka, Jakarta'
         ]);
 
         User::create([
-            'name' => 'Customer Demo',
+            'name' => 'Customer AlineaPustaka',
             'email' => 'customer@gmail.com',
             'password' => Hash::make('password'),
             'role' => 'customer',
             'phone' => '089876543210',
-            'address' => 'Jl. Merdeka No. 45, Jakarta'
+            'address' => 'Jl. Budi Mulya No. 45, Jakarta'
         ]);
 
         $cat1 = Category::create(['name' => 'Teknologi', 'slug' => 'teknologi']);
         $cat2 = Category::create(['name' => 'Novel', 'slug' => 'novel']);
         $cat3 = Category::create(['name' => 'Bisnis & Finansial', 'slug' => 'bisnis-finansial']);
-        $cat4 = Category::create(['name' => 'Self Development', 'slug' => 'self-development']);
+        $cat4 = Category::create(['name' => 'Komik', 'slug' => 'komik']);
 
         Book::create([
             'category_id' => $cat1->id,
@@ -67,10 +67,10 @@ class DatabaseSeeder extends Seeder
 
         Book::create([
             'category_id' => $cat4->id,
-            'title' => 'The Art of Becoming',
-            'author' => 'Micah Bell',
-            'description' => 'Cara mudah dan terbukti untuk membentuk kebiasaan baik dan menghilangkan kebiasaan buruk setiap hari.',
-            'price' => 110000,
+            'title' => 'One Piece',
+            'author' => 'Eiichiro Oda',
+            'description' => 'Petualangan Monkey D Luffy dan kru bajak lautnya mencari harta karun raja bajak laut',
+            'price' => 35000,
             'stock' => 30,
             'cover' => null
         ]);

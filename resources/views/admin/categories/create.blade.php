@@ -5,7 +5,7 @@
     <div class="mb-6 flex items-center justify-between">
         <div>
             <h1 class="font-book-title text-2xl font-bold text-stone-900 tracking-tight">Tambah Kategori Baru</h1>
-            <p class="text-xs text-stone-500 mt-0.5">Buat klasifikasi bidang buku baru di Aksara Pustaka</p>
+            <p class="text-xs text-stone-500 mt-0.5">Buat klasifikasi bidang buku baru di Alinea Pustaka</p>
         </div>
         <a href="{{ route('admin.categories.index') }}" class="btn btn-ghost btn-sm text-stone-600 hover:text-stone-900">&larr; Kembali</a>
     </div>

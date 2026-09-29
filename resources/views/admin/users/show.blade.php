@@ -5,7 +5,7 @@
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-white p-5 rounded-2xl border border-stone-200 shadow-2xs">
         <div>
             <h1 class="font-book-title text-2xl font-bold text-stone-900 tracking-tight">Detail Pelanggan</h1>
-            <p class="text-xs text-stone-500 mt-0.5">Informasi profil dan histori pembelian akun pelanggan di Aksara Pustaka</p>
+            <p class="text-xs text-stone-500 mt-0.5">Informasi profil dan histori pembelian akun pelanggan di Alinea Pustaka</p>
         </div>
         <a href="{{ route('admin.users.index') }}" class="btn btn-ghost btn-sm text-stone-600 hover:text-stone-900">&larr; Kembali</a>
     </div>

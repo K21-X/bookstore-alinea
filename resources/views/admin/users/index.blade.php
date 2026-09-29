@@ -5,7 +5,7 @@
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 bg-white p-5 rounded-2xl border border-stone-200 shadow-2xs">
         <div>
             <h1 class="font-book-title text-2xl font-bold text-stone-900 tracking-tight">Data Pelanggan (Users)</h1>
-            <p class="text-xs text-stone-500 mt-0.5">Daftar akun pelanggan terdaftar yang telah bertransaksi di Aksara Pustaka</p>
+            <p class="text-xs text-stone-500 mt-0.5">Daftar akun pelanggan terdaftar yang telah bertransaksi di Alinea Pustaka</p>
         </div>
     </div>
 
